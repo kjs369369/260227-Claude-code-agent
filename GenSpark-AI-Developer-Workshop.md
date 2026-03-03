@@ -9,20 +9,36 @@ style: |
     font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
     color: #eee;
+    font-size: 26px;
+    padding: 40px 50px;
   }
   h1 {
     color: #00d4ff;
-    font-size: 2.2em;
+    font-size: 1.8em;
     border-bottom: 3px solid #e94560;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
   }
   h2 {
     color: #00d4ff;
-    font-size: 1.6em;
+    font-size: 1.35em;
+    margin-bottom: 8px;
   }
   h3 {
     color: #e94560;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  p, li {
+    margin: 4px 0;
+    line-height: 1.4;
+  }
+  ul, ol {
+    margin: 4px 0;
+  }
+  pre {
+    font-size: 0.85em;
+    margin: 8px 0;
   }
   strong {
     color: #ffd700;
@@ -40,14 +56,26 @@ style: |
     border-radius: 0 8px 8px 0;
   }
   table {
-    font-size: 0.85em;
+    font-size: 0.8em;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0;
   }
   th {
     background: #e94560;
-    color: white;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 1px solid #e94560;
   }
   td {
-    background: rgba(255,255,255,0.05);
+    background: #1e2a4a;
+    color: #f0f0f0;
+    padding: 6px 12px;
+    border: 1px solid #2a3a5c;
+  }
+  tr:nth-child(even) td {
+    background: #243352;
   }
   a {
     color: #00d4ff;
